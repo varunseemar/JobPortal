@@ -1,0 +1,226 @@
+.jobViewheader{
+    background-color: #ED5353;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 13vh;
+    display: flex;
+}
+.jobViewheaderrectangle2{
+    width: 20vw;
+    height: 7vh;
+    margin-top: 6vh;
+}
+.jobViewheaderrectangle3{
+    margin-left: 19vw;
+    width: 22vw;
+    height: 9vh;
+}
+.jobViewheaderrectangle4{
+    margin-left: 15vw;
+    width: 20vw;
+}
+.jobViewheaderText{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 5vw;
+}
+.jobViewheaderLogin{
+    position: absolute;
+    z-index: 10;
+    height: 5vh;
+    width: 6vw;
+    margin-left: 82vw;
+    margin-top: 3.5vh;
+    background-color: #FF6B6B;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+}
+.jobViewheaderRegister{
+    position: absolute;
+    z-index: 10;
+    height: 5vh;
+    width: 6vw;
+    margin-left: 90vw;
+    margin-top: 3.5vh;
+    color: #ED5353;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    border: none;
+}
+.jobViewheaderlogout{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 18px;
+    margin-left: 78vw;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+.jobViewheaderhello{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 18px;
+    margin-left: 83.5vw;
+    margin-top: 4vh;
+}
+.jobViewheaderuser{
+    position: absolute;
+    z-index: 10;
+    margin-left: 93.3vw;
+    margin-top: 2.7vh;    
+    height: 6vh;
+    width: 3vw;
+}
+.jobViewHeading{
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 12vh;
+    margin-top: -4vh;
+    background-color: white;
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 6vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 20px 2px #00000033;
+}
+.jobViewJobInfo{
+    width: 53vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: white;
+    box-shadow: 0px 0px 20px 2px #00000033;
+    padding:4vh 3vw 5vh 4vw;
+}
+.jobViewHeadingText{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+.jobViewFullPage{
+    background-color: #FFEFEF;
+}
+.jobViewJobInfoDiv1{
+    display: flex;
+    align-items: center;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 500;
+}
+.jobViewJobInfoDiv1 > img{
+    height: 5vh;
+    width: 2.5vw;
+    margin-right: 1vw;
+}
+.jobViewJobInfoDiv1 > p{
+    margin-right: 1vw;
+}
+.jobViewJobInfoDiv2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.jobViewJobInfoDiv2 > p{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0vh;
+    margin-top: 1.5vh;
+}
+.jobViewJobInfoDiv2 > button{
+    width: 8vw;
+    height: 5vh;
+    background-color: #ED5353;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 3vw;
+}
+.jobViewJobInfoDiv3{
+    color: #ED5353;
+    font-size: 16px;
+    font-weight: 500;
+}
+.jobViewJobInfoDiv3 >p{
+    margin-top: 1vh;
+}
+.jobViewJobInfoDiv4{
+    display: flex;
+    align-items: center;
+}
+.jobViewJobInfoDiv4 > div{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    color: #595959;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: flex-start;
+}
+.jobViewJobInfoDiv4ImageText{
+    color: #999999;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0vh;
+    font-weight: 400;
+}
+.jobViewJobInfoDiv4ImageText > img{
+    margin-right: 0.5vw;
+}
+.jobViewJobInfoDiv4 > div > p{
+    margin-top: 0px;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+}
+.jobViewJobInfoDiv4Image{
+    height: 1.75vw;
+    width: 1.5vw;
+}
+.jobViewfooter{
+    height: 5vh;
+    width: 100%;
+    background-color: #FFEFEF;
+    margin-top: 3vh;
+}
+.jobViewJobInfoDivHeading{
+    font-size: 22px;
+    font-weight: 600;
+}
+.jobViewJobInfoDivText{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5vh;
+    color: #595959;
+}
+.jobViewJobInfoDiv5{
+    padding-right: 3vw;
+}
+.jobViewJobInfoDiv6{
+    padding-right: 3vw;
+}
+.jobViewJobInfoDiv8{
+    padding-right: 3vw;
+}
+.jobViewJobInfoDiv7{
+    padding-right: 3vw;
+}
+.jobViewJobInfoDiv7Skills{
+    display: flex;
+}
+.jobViewJobInfoDiv7Skill{
+    margin-right: 2vw;
+    color: #595959;
+    background-color: #FFEEEE;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 18px
+}

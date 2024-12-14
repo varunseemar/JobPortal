@@ -1,0 +1,185 @@
+.jobpost{
+    display: flex;
+}
+.jobpictext{
+    position: absolute;
+    z-index: 3;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    color: white;
+    margin-top: 50px;
+}
+.jobpic img{
+    height: 100vh;
+    margin-bottom: -5px;
+    width: 43vw;
+    position: relative;
+}
+.jobform{
+    width: 58vw;
+    margin-left: 6vw;
+    margin-top: 0vh;
+}
+.jobformMain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+.jobformMain > div >input{
+    margin-left: 2vw;
+    height: 3.4vh;
+    width: 25vw;
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+.jobformMain > div{
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7vw;
+}
+.jobformMain > div >label{
+    display: flex;
+    font-size: 19px;
+}
+.jobformMain > div >label > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}
+.jobformJobTypeSelect{
+    display: flex;
+    margin-right: 17.5vw;
+    height: 3.8vh;
+    width: 8vw;
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+    text-indent: 25px;
+    color: #707070;
+}
+.jobformRemoteSelect{
+    display: flex;
+    margin-right: 17.5vw;
+    height: 3.8vh;
+    width: 8vw;
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+    text-indent: 25px;
+    color: #707070;
+}
+.jobformJobDescriptionTextarea{
+    height: 6.5vh;
+    width: 25vw;
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+    resize: none;
+    text-indent: 10px;
+}
+.jobformAboutCompanyTextarea{
+    height: 6.5vh;
+    width: 25vw;
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+    resize: none;
+    text-indent: 10px;
+}
+.jobformMain > .jobformButtons{
+    display: flex;
+    justify-content: end;
+    margin-top: 1vh;
+}
+.jobformMain > .jobformButtons > button{
+    width: 7.5vw;
+    height: 4.5vh;
+    border-radius: 5px;
+}
+.jobformCancelButton{
+    background-color: #FFFFFF;
+    border: 1px solid #CECECE;
+    color: #C2C2C2;
+    font-size: 14px;
+}
+.jobformAddButton{
+    margin-left: 1vw;
+    background-color: #ED5353;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+}
+.jobformMain > .jobformSkillsRequired{
+    margin-bottom: 0px;
+}
+.jobformSkillsRequiredSelect{
+    width: 25.25vw;
+    border: 2px solid #C2C2C2;
+    border-radius: 4px;
+    color: #727272;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.4vh;
+    cursor: pointer;
+}
+.jobformSkillsRequiredSelectText{
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+.jobformSkillsRequiredSelectMenu{
+    width: 24.8vw;
+    height: 15vh;
+    overflow-y: scroll;
+    z-index: 10;
+    position:absolute;
+    background-color: white;
+    margin-left: 18.5vw;
+    margin-top: 3.8vh;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.optionMenu{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.jobformSkillsRequiredSelected{
+    display: flex;
+    margin-left: 19vw;
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+.jobformMain > .jobformSkillsRequiredSelected{
+    margin-bottom:0px;
+}
+.jobformSkillsRequiredSelectedSkill{
+    display: flex;
+    margin-right: 1vw;
+}
+.jobformSkillsRequiredSelectedSkillText{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #FFEEEE;
+    display: flex;
+    align-items: center;
+}
+.jobformSkillsRequiredSelectedSkillRemove{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    color: white;
+    background-color: #FF6B6B;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.jobformInformation{
+    margin-top: 2vh;
+}
